@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "CCC",
+    "CCC",
+    "CCC"
+  ],
+  "key": {
+    "C": {
+      "item": "monkeykit:copper_krona"
+    }
+  },
+  "result": {
+    "item": "monkeykit:silver_krona"
+  }
+}

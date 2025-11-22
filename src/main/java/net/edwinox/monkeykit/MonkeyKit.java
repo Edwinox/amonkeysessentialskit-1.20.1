@@ -1,6 +1,9 @@
 package net.edwinox.monkeykit;
 
 import com.mojang.logging.LogUtils;
+import net.edwinox.monkeykit.item.ModCreativeModeTabs;
+import net.edwinox.monkeykit.item.ModItems;
+import net.edwinox.monkeykit.loot.ModLootModifiers;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -23,6 +26,12 @@ public class MonkeyKit
     public MonkeyKit(FMLJavaModLoadingContext context)
     {
         IEventBus modEventBus = context.getModEventBus();
+
+        ModCreativeModeTabs.register(modEventBus);
+
+        ModItems.register(modEventBus);
+
+        ModLootModifiers.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
