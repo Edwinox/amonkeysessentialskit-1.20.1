@@ -275,5 +275,21 @@ public class ModGlobalLootModifiersProvider extends GlobalLootModifierProvider {
         add("copper_krona_from_ocean_creeper", new AddItemModifier(new LootItemCondition[]{
                 new LootTableIdCondition.Builder(new ResourceLocation("creeperoverhaul:entities/ocean_creeper")).build(),
                 LootItemRandomChanceCondition.randomChance(0.35f).build()}, ModItems.COPPER_KRONA.get()));
+
+        add("copper_krona_from_gelid", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("variantsandventures:entities/gelid")).build(),
+                LootItemRandomChanceCondition.randomChance(0.35f).build()}, ModItems.COPPER_KRONA.get()));
+
+        add("copper_krona_from_murk", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("variantsandventures:entities/murk")).build(),
+                LootItemRandomChanceCondition.randomChance(0.35f).build()}, ModItems.COPPER_KRONA.get()));
+
+        add("copper_krona_from_thicket", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("variantsandventures:entities/thicket")).build(),
+                LootItemRandomChanceCondition.randomChance(0.35f).build()}, ModItems.COPPER_KRONA.get()));
+
+        add("copper_krona_from_verdant", new AddItemModifier(new LootItemCondition[]{
+                new LootTableIdCondition.Builder(new ResourceLocation("variantsandventures:entities/verdant")).build(),
+                LootItemRandomChanceCondition.randomChance(0.35f).build()}, ModItems.COPPER_KRONA.get()));
         };
     }

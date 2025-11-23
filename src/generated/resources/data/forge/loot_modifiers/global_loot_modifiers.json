@@ -1,5 +1,7 @@
 {
   "entries": [
+    "monkeykit:copper_krona_from_verdant",
+    "monkeykit:copper_krona_from_murk",
     "monkeykit:copper_krona_from_radgill",
     "monkeykit:copper_krona_from_desert_creeper",
     "monkeykit:copper_krona_from_ravager",
@@ -41,6 +43,7 @@
     "monkeykit:copper_krona_from_gamma_roach",
     "monkeykit:copper_krona_from_bone_serpent",
     "monkeykit:copper_krona_from_hills_creeper",
+    "monkeykit:copper_krona_from_gelid",
     "monkeykit:copper_krona_from_savannah_creeper",
     "monkeykit:copper_krona_from_husk",
     "monkeykit:copper_krona_from_warden",
@@ -54,6 +57,7 @@
     "monkeykit:copper_krona_from_vex",
     "monkeykit:copper_krona_from_crimson_mosquito",
     "monkeykit:copper_krona_from_phantom",
+    "monkeykit:copper_krona_from_thicket",
     "monkeykit:copper_krona_from_piglin",
     "monkeykit:copper_krona_from_ocean_creeper",
     "monkeykit:copper_krona_from_corrodent",
