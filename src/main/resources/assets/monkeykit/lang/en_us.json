@@ -4,5 +4,9 @@
  "item.monkeykit.silver_krona": "Silver Krona",
  "item.monkeykit.gold_krona": "Gold Krona",
 
+ "block.monkeykit.time_waste": "Time Waste",
+
+ "sounds.tutorialmod.time_waste_break": "timewastebreak",
+
  "creativetab.monkey_tab": "A Monkey's Essentials Kit"
 }

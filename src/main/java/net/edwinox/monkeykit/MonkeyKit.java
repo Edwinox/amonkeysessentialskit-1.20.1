@@ -1,9 +1,11 @@
 package net.edwinox.monkeykit;
 
 import com.mojang.logging.LogUtils;
+import net.edwinox.monkeykit.block.ModBlocks;
 import net.edwinox.monkeykit.item.ModCreativeModeTabs;
 import net.edwinox.monkeykit.item.ModItems;
 import net.edwinox.monkeykit.loot.ModLootModifiers;
+import net.edwinox.monkeykit.sound.ModSounds;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
@@ -30,6 +32,10 @@ public class MonkeyKit
         ModCreativeModeTabs.register(modEventBus);
 
         ModItems.register(modEventBus);
+
+        ModBlocks.register(modEventBus);
+
+        ModSounds.register(modEventBus);
 
         ModLootModifiers.register(modEventBus);
 

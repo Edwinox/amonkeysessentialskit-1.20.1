@@ -1,6 +1,7 @@
 package net.edwinox.monkeykit.item;
 
 import net.edwinox.monkeykit.MonkeyKit;
+import net.edwinox.monkeykit.block.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceKey;
@@ -23,6 +24,8 @@ public class ModCreativeModeTabs {
                         output.accept(ModItems.COPPER_KRONA.get());
                         output.accept(ModItems.SILVER_KRONA.get());
                         output.accept(ModItems.GOLD_KRONA.get());
+
+                        output.accept(ModBlocks.TIME_WASTE.get());
                     })
                     .build());
 

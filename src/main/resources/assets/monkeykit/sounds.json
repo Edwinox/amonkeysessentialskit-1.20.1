@@ -1,0 +1,37 @@
+{
+  "time_waste_break": {
+    "subtitles": "sounds.tutorialmod.time_waste_break",
+    "sounds": [
+      "monkeykit:time_waste_break_0",
+      "monkeykit:time_waste_break_1"
+    ]
+  },
+  "time_waste_step": {
+    "subtitles": "sounds.tutorialmod.time_waste_step",
+    "sounds": [
+      "monkeykit:time_waste_step_0",
+      "monkeykit:time_waste_step_1"
+    ]
+  },
+  "time_waste_fall": {
+    "subtitles": "sounds.tutorialmod.time_waste_fall",
+    "sounds": [
+      "monkeykit:time_waste_step_0",
+      "monkeykit:time_waste_step_1"
+    ]
+  },
+  "time_waste_place": {
+    "subtitles": "sounds.tutorialmod.time_waste_place",
+    "sounds": [
+      "monkeykit:time_waste_place_0",
+      "monkeykit:time_waste_place_1"
+    ]
+  },
+  "time_waste_hit": {
+    "subtitles": "sounds.tutorialmod.time_waste_hit",
+    "sounds": [
+      "monkeykit:time_waste_hit_0",
+      "monkeykit:time_waste_hit_1"
+    ]
+  }
+}

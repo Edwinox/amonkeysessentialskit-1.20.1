@@ -1,0 +1,10 @@
+{
+  "parent": "minecraft:block/orientable_with_bottom",
+  "textures": {
+    "bottom": "monkeykit:block/time_waste_bottom",
+    "front": "monkeykit:block/time_waste",
+    "particle": "monkeykit:block/time_waste",
+    "side": "monkeykit:block/time_waste",
+    "top": "monkeykit:block/time_waste_top"
+  }
+}
